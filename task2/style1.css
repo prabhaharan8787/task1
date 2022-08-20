@@ -100,7 +100,7 @@ list-style: none;
 }
 .tab{
      margin:10px;
-     background-color:cornflowerblue;
+     background:-webkit-linear-gradient(green, blue, yellow, red);
      width: 100%;
      text-align: center;
      height: 350px;
