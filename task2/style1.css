@@ -1,0 +1,152 @@
+
+.img{
+     
+    background-image: url('https://images.macrumors.com/t/8HXqH9XcORR6lHwHp04-W1QoWaM=/800x0/smart/article-new/2020/11/m1-mac-mini-vignette.jpg-feature.jpg?lossy');
+    background-size: cover;
+    width:100%;
+    height: 400px;
+}
+
+.nav-right ul{
+display: inline-block;
+list-style: none;
+
+
+}
+.nav-right ul li{
+    padding: 10px;
+    margin: 10px;
+    
+    
+    float: left;
+   
+}
+.nav-right ul li a{
+    color:rgb(87, 128, 163);
+    text-decoration: none;
+}
+.header-cont{
+     text-align:center;
+     margin-top: 100px;
+}
+.header-cont h1{
+    color:rgb(31, 27, 27);
+    margin-top: 100px;
+}
+.header-cont p{
+ color: black;
+}
+.b1{
+    background-color: antiquewhite;
+    border-radius: 30px;
+    padding: 10px;
+    border-color:blue;
+}
+.cont{
+    text-align: center;
+    margin-top: 100px;
+}
+.cont h1{
+    color:aqua;
+}
+.b2{
+    border-radius: 30px;
+    padding: 10px;
+    border-color:blue;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    margin-top: 100px;
+}
+.card{
+    display: inline-block;
+    text-align: center;
+    background-color: blue;
+    color: aliceblue;
+    width: 100%;
+    height: 300px;
+    font-size: 22px;
+    overflow: scroll;
+
+}
+.card2{
+    display: inline-block;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    width: 100%;
+    height: 300px;
+    overflow: scroll;
+    font-size: 22px;
+}
+.icons{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    color: rgb(3, 85, 85);
+    
+}
+.icons1{
+    display: inline-block;
+    margin: 10px;
+    width: 100%;
+}
+.service{
+    margin-top: 250px;
+    text-align: center;
+  
+}
+.tab{
+     margin:10px;
+     background-color:cornflowerblue;
+     width: 100%;
+     text-align: center;
+     height: 350px;
+     font-size: 32px;
+     color: aliceblue;
+
+     
+}
+th{
+    padding:30px;
+    padding-left: 150px;
+}
+td{
+    padding: 30px;
+    padding-left: 150px;
+}
+.Portfold{
+    text-align:center;
+    
+}
+.Portfold h1{
+    text-align:center;
+    color: aqua;
+    
+}
+.list ul{
+    list-style: none;
+    color: blueviolet;
+}
+.list ul li{
+    display: inline-block;
+    margin: 10px;
+}
+.foot{
+    margin-left: 200px;
+    margin-right: 20px;
+    display: flex;
+    width: 100%;
+    height: 400px;
+    padding: 10px;
+   
+}
+.footim{
+    width: 100%;
+    display: inline-block;
+}
+.footim img{
+    background-size:cover ;
+}

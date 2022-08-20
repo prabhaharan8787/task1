@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+
+.container{
+    display:flex ;
+}
+.nav ul{
+ list-style-type: none;
+ border-bottom: thin;
+}
+.nav ul li{
+    margin: 10px;
+    font-size: 16px;
+    display: inline-block;
+  
+        color: aliceblue;
+  
+}
+.nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.nav ul li a:hover{
+   
+        color: aliceblue;
+   
+    cursor: wait;
+}
+.nav ul li a:visited{
+    color: aliceblue;
+    cursor: wait;
+}
+.nav ul li a:link{
+    color: white;
+    cursor: wait;
+}
+.nav ul li a:active{
+    color: aliceblue;
+    cursor: wait;
+}
+.nav-right ul li{
+   margin: 10px;
+   font-size: 16px;
+   display: inline-block;
+  
+}
+.nav-right ul{
+    margin-left: 350px;
+}
+.nav-right ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    cursor: wait;
+}
+.header{
+    margin-top: 200px;
+    margin-left: 10px;
+    color: aliceblue;
+}
+.header p{
+    color: aliceblue;
+}
+.header ul{
+    list-style-type: none;
+
+}
+.header ul li{
+    margin: 10px;
+    font-size: 20px;
+    display: inline-block;
+    
+}
+.header ul li a{
+   text-decoration: none;
+  
+   cursor: wait;
+  color: aliceblue;
+}
+.active{
+    margin-bottom: 15px;
+    text-decoration: underline;
+
+}
+button{
+    background-color: orangered;
+    color: whitesmoke;
+}
+form{
+    margin: 20px;
+    padding: 20px;
+   
+}
+.img{
+    background-image: url('https://images.freecreatives.com/wp-content/uploads/2015/06/beautiful-nature-wallpapers-hd.jpg');
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.card{
+    margin: 10px;
+    padding:10px;
+    text-align: center;
+    width: 100%;
+    
+    
+}
+img{
+    width: 100%;
+    height:200px;
+}
+.split{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+
+.card h2,p{
+    color: black;
+}
+.card-header{
+    background-color: beige;
+}
+.imgc{
+    background-color: rgb(214, 214, 202);
+}
+*{
+    font-family: 'Merriweather', serif;
+}
